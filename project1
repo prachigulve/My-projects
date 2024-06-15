@@ -1,1 +1,116 @@
-123
+Git Assignment
+1.Assignment 1st
+
+
+
+Stage Output.txt and Code.txt
+
+Commit them
+
+ And finally push them to github
+
+
+
+2.Assignment 2nd
+● Create a git working directory with feature1.txt and feature2.txt in the master branch
+
+
+● Create 3 branches develop, feature1 and feature2
+
+● In develop branch create develop.txt, do not stage or commit it
+
+
+● Stash this file, and checkout to feature1 branch
+
+
+
+
+
+
+● Create new.txt file in feature1 branch, stage and commit this file
+
+
+
+
+● Checkout to develop, unstash this file and commit
+
+
+
+
+
+all the git commands used to do the above steps
+      git init
+      git add Code.txt Output.txt
+     git status
+     git commit -m "added files code.txt and output.txt"
+     git remote add origin url
+    git push origin master
+    git add .
+    git branch
+    git status
+    git stash -u
+    git stash pop
+3.Assignment 3rd
+
+● Create a git working directory, with the following branches
+○ Develop
+○ F1
+○ f2
+
+
+Need to create master branch
+
+
+● In the master branch, commit main.txt file
+
+
+
+● Put develop.txt in develop branch, f1.txt and f2.txt in f1 and f2 respectively
+
+
+
+
+● Push all these branches to github
+
+● On local delete f2 branch
+
+● Delete the same branch on github as well
+
+
+4.Assignment 4th
+● Put master.txt on master branch, stage and commit
+
+● Create 3 branches: public1, public2 and private
+
+● Put public1.txt on public 1 branch, stage and commit
+
+● Merge public 1 on master branch
+● Merge public 2 on master branch
+
+
+● Edit master.txt on private branch, stage and commit
+
+● Now update branch public 1 and public 2 with new master code in private
+
+
+● Also update new master code on master
+
+● Finally update all the code on the private branch
+
+
+5.Assignment 5th
+Create a gitflow workflow architecture on git
+● Create all the required branches
+
+● Starting from the feature branch, push the branch to the master, following the
+Architecture
+
+
+
+
+
+● Push a urgent.txt on master using hotfix
+
+
+
+
